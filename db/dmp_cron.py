@@ -1,4 +1,4 @@
-from .models import DmpOrgs, DmpIssues, DmpIssueUpdates, DmpPrUpdates, DmpWeekUpdates
+from db.models import DmpOrgs, DmpIssues, DmpIssueUpdates, DmpPrUpdates, DmpWeekUpdates
 from sqlalchemy import update, func
 from sqlalchemy.dialects.postgresql import insert
 from sqlalchemy.exc import NoResultFound
