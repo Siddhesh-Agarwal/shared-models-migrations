@@ -1,4 +1,4 @@
-from .models import DmpOrgs, DmpIssues, DmpIssueUpdates, DmpPrUpdates
+from db.models import DmpOrgs, DmpIssues, DmpIssueUpdates, DmpPrUpdates
 from sqlalchemy import func
 from sqlalchemy.future import select
 
